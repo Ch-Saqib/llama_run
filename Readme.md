@@ -83,9 +83,9 @@ To download the Llama 3.1 model within the Ollama container, follow these steps:
 
  **2.Access the Ollama Container:**
 
-        Find the ollama container from the list of running containers.
-        Click on the container to open the details.
-        Go to the Exec tab (or use docker exec via terminal).
+    Find the ollama container from the list of running containers.
+    Click on the container to open the details.
+    Go to the Exec tab (or use docker exec via terminal).
 
  **3.Run the Model Download Command:**
 
