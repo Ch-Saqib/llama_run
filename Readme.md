@@ -111,9 +111,9 @@ Now that Ollama is running locally and exposed via Ngrok, you can interact with 
 
 In your Google Colab notebook:
 
-  **1.Install Required Libraries:**
+ **1.Install Required Libraries:**
 
-   - Colab comes with many libraries pre-installed, but you might need requests for API interactions.
+ - Colab comes with many libraries pre-installed, but you might need requests for API interactions.
 
    ```bash
    !pip install requests
