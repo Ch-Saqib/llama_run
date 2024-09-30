@@ -70,9 +70,9 @@ To interact with Ollama from Google Colab, you need to expose your local Ollama 
 
 **3.Copy the Public URL:**
 
-    ```bash
-    t=2024-09-05T18:46:58+0500 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:11434 url=https://99fd-129.ngrok-free.app
-    ```
+  ```bash
+  t=2024-09-05T18:46:58+0500 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:11434 url=https://99fd-129.ngrok-free.app
+  ```
   - Ngrok will output a public URL like http://abcd1234.ngrok.io. Copy this URL; you’ll need it in Google Colab.
 
 ## 3: Download the Llama Model in the Ollama Container
