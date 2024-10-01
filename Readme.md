@@ -47,6 +47,9 @@ Before using Ollama in Google Colab, you need to set it up on your local machine
 
    ```bash
    docker pull ollama/ollama:latest
+   ```
+   
+   ```bash
    docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
    ```
      * This command pulls the latest Ollama Docker image and runs it on port 11434.
