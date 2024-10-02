@@ -107,6 +107,7 @@ To download the Llama 3.1 model within the Ollama container, follow these steps:
   ```bash
   ollama run tinyllama
   ```
+All Models Are [Here](https://ollama.com/library)
  Run This in Ui For Better Interacting
  - If Ollama is on your computer, use this command:
  ```bash
