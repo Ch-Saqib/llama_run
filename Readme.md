@@ -107,6 +107,20 @@ To download the Llama 3.1 model within the Ollama container, follow these steps:
   ```bash
   ollama run tinyllama
   ```
+ Run This in Ui For Better Interacting
+ - If Ollama is on your computer, use this command:
+ ```bash
+docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+ ```
+- If Ollama is on a Different Server, use this command:
+  - To connect to Ollama on another server, change the OLLAMA_BASE_URL to the server's URL:
+  ```bash
+  docker run -d -p 3000:8080 -e OLLAMA_BASE_URL=https://example.com -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+  ```
+- To run Open WebUI with Nvidia GPU support, use this command:
+```bash
+docker run -d -p 3000:8080 --gpus all --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:cuda
+```
 
 ## 4. Interacting with Ollama in Google Colab
 
